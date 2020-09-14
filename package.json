@@ -1,0 +1,20 @@
+{
+  "name": "call-recording-rest-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Jean Paul Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "*",
+    "koa": "*",
+    "koa-bodyparser": "*",
+    "mysql2": "*",
+    "sequelize": "*",
+    "@koa/router": "*",
+    "@okta/jwt-verifier": "*"
+  }
+}
